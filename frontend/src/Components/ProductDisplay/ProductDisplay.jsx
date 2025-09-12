@@ -18,7 +18,7 @@ const ProductDisplay = () => {
         </div>
         <div className='productdisplay-right'>
             <h1>{product.name}</h1>
-            <div className="productdisplay-right-star">
+            <div className="productdisplay-right-stars">
                <img src={star_icon} />
                <img src={star_icon} />
                <img src={star_icon} />
@@ -35,7 +35,7 @@ const ProductDisplay = () => {
             </div>
             <div className='productdisplay-right-size'>
                 <h1>Select Size</h1>
-                <div className='productdisplay-right-size'>
+                <div className='productdisplay-right-sizes'>
                     <div>S</div>
                     <div>M</div>
                     <div>L</div>
